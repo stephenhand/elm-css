@@ -64,7 +64,7 @@ unstyledDiv =
         output =
             ""
     in
-    describe "unstyled div"
+    describe "compile unstyled div"
         [ test "pretty prints the expected output" <|
             \() ->
                 prettyPrint input

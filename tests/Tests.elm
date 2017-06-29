@@ -553,7 +553,6 @@ weightWarning =
                     |> Expect.equal (outdented output)
         ]
 
-
 hexWarning : Test
 hexWarning =
     describe "invalid hex colors"
@@ -713,6 +712,7 @@ bug280 =
     let
         input =
             Fixtures.mediaQueryIndentation
+
 
         actual =
             "@media (max-width: 515px) {\n    .mdl-layout__header > .mdl-layout-icon {\n        display: none;\n    }\n}"
