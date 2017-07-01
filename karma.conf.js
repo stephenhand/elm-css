@@ -38,12 +38,14 @@ module.exports = function(config) {
                             ,"Tests.backgrounds","Tests.bug280"]
                     }
                 ],
+                logLevel: config.LOG_INFO,
+                reporters: ['progress'],
                 "test-source-directories" : [
                     ".\\tests"
                 ]
             }
         },
-        browsers: ['Edge'],
+        browsers: ["Chrome","Edge"],
         autoWatch:true,
         singleRun:false
     });
