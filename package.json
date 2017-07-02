@@ -40,7 +40,7 @@
     "karma": "~1.7.0",
     "karma-chrome-launcher": "~2.1.1",
     "karma-edge-launcher": "~0.4.1",
-    "karma-elm-test": "0.0.1",
+    "karma-elm-test": "0.0.2",
     "karma-phantomjs-launcher": "^1.0.4",
     "mocha": "2.3.4"
   },
