@@ -41,11 +41,14 @@ module.exports = function(config) {
                 logLevel: config.LOG_INFO,
                 reporters: ['progress'],
                 "test-source-directories" : [
-                    ".\\tests"
+                    "./tests"
                 ]
             }
         },
-        browsers: ["Chrome","Edge"],
+        browsers: [
+//            "Chrome",
+//            "Edge",
+            "PhantomJS"],
         autoWatch:true,
         singleRun:false
     });
