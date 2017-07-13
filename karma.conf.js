@@ -39,14 +39,14 @@ module.exports = function(config) {
                     }
                 ],
                 logLevel: config.LOG_INFO,
-                reporters: ['progress'],
                 "test-source-directories" : [
                     "./tests"
                 ]
             }
         },
+        reporters: ['mocha'],
         browsers: [
-//            "Chrome",
+            "Chrome",
 //            "Edge",
             "PhantomJS"],
         autoWatch:true,
